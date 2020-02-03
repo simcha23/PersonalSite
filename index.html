@@ -40,7 +40,6 @@
                     <p>I am an ambitious person who is prepared to achieve the desired goals under development space. I am a hard worker, self-motivated, goal-oriented person. I design and develop dynamic web applications with the use of current technologies which are listed below <em><a href="#skills">skills</a></em> and i graduated for National Diploma in Web and Application Development at Tshwane University of Technology.</p>
                     <p>"--Mgcina Simcar Mahlangu--"</p>
                 </div>
-
             </div>
        
             <div class="grid-skills" id="skills">
@@ -64,7 +63,8 @@
                     </ul>
                 </div>
                 <div class="grid-skills-item2">
-                    <i class="fa fa-balance-scale"></i>                 <h5>Interpersonal skills</h5>
+                    <i class="fa fa-balance-scale"></i>                 
+                    <h5>Interpersonal skills</h5>
                     <ul>
                         <li>Adaptation</li>
                         <li>Problem solving</li>
@@ -170,7 +170,7 @@
         <div class="footer">
             <div class="grid-footer">
                 <div class="grid-footer-item1">
-                    <p>Copyright &copy; MS Mahlangu. All Rights Reserved. <script>document.write(new Date().getFullYear())</script></p>
+                    <p>Copyright &copy; MS Mahlangu <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
                 </div>
                 <div class="grid-footer-item2">
                     <a href="https://www.facebook.com/0714809003.Simcar" title="Simcha Mahlangu"><i class="fa fa-facebook" id="facebook"></i></a>         
@@ -183,8 +183,9 @@
         
     </div>
 
-    <script src="js/javascrpt.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- <script src="js/javascrpt.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
     <script>
 
 
@@ -206,6 +207,36 @@
        
         });
 
+        
+        // $('a[href*="#"]').not('[href="#"]').not('[href="#0"]')
+        //     .click(function (event) {
+        //         if (
+        //             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        //             &&
+        //             location.hostname == this.hostname
+        //         ) {
+        //             var target = $(this.hash);
+        //             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        //             if (target.length) {
+        //                 event.preventDefault();
+        //                 $('html, body').animate({
+        //                     scrollTop: target.offset().top - 34
+        //                 }, 1000, function () {
+        //                     var $target = $(target);
+        //                     $target.focus();
+        //                     if ($target.is(":focus")) {
+        //                         return false;
+        //                     } else {
+        //                         $target.attr('tabindex', '-1');
+        //                         $target.focus();
+        //                     };
+        //                 });
+                        
+        //                 console.log(target.offset().top);
+        //             }
+        //         }
+        //     });
+        
     </script>
 </body>
 </html>

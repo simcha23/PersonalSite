@@ -1,7 +1,7 @@
 body{
     width: 100%;
     margin: auto;
-    font-family:"Bell MT";
+    font-family:'Bell MT','Times New Roman', Times, serif;
     font-size: small;
     background-color: white;
 }

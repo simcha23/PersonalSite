@@ -63,6 +63,7 @@ html {
     padding-top: 12px;
     position: absolute; 
     right: 10px;
+    transition: .4s;
 }
 .btn span{
     display: block;
@@ -234,7 +235,7 @@ em a{
     grid-template-columns: 2;
     grid-template-rows:1;
     column-gap: 50px;
-    background-color: orangered;
+    background-color: rgb(248, 233, 228);
     padding: 10px 15px;
     margin-top: 40px;
     box-shadow: 2px 3px 2px #888888;
